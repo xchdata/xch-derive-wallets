@@ -4,9 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-chia-bls = "0.6.0"
-chia-wallet = "0.6.0"
 bech32 = "0.9.1"
 hex = "0.4.3"
 eyre = "0.6.12"
 clap = { version = "4.5.4", features = ["derive"] }
+chia = "0.17.0"
